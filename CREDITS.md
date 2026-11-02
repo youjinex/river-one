@@ -3,6 +3,8 @@
 - 재질(512 WebP로 줄임): marble_01, white_plaster_02, natural_walnut_veneer, smoked_walnut_veneer, rough_linen, velour_velvet
 - 모델(meshopt + WebP 1024/512): Ottoman_01, ceramic_vase_01, modern_ceiling_lamp_01, potted_plant_02, potted_plant_04, wine_bottles_01
 - 모델 2차(sim/shrink_glb.mjs로 텍스처 512, 메시 단순화 후 meshopt): dining_chair_02, modern_wooden_cabinet, fancy_picture_frame_01, hanging_picture_frame_01, ornate_mirror_01, tea_set_01, vintage_electric_kettle, wooden_display_shelves_01, desk_lamp_arm_01
+- 한강 물 노멀: three.js 예제 waternormals.jpg(MIT, three.js authors) → water_nor.webp 1024. Poly Haven이 아닌 유일한 재료
+- 별: HYG 4.1(astronexus, CC BY-SA 4.0, 히파르코스 기반) 등급 8 이하의 실제 좌표. sim/gen_stars.mjs가 src/stars.js로 묶음. 이미지 아님, 출시물 크레딧 필요
 - HDRI: qwantani_dusk_2_puresky 1k
 빌드 때 scripts/gen_assets.py가 src/assets.js(base64)로 묶음.
 - 차: ferrari.glb = three.js 예제의 Ferrari 458 Italia, 만든 이 vicent091036 (Sketchfab, CC BY 4.0, https://sketchfab.com/models/57bf6cc56931426e87494f554df1dab6). 출시물엔 이 줄을 크레딧에 넣을 것
@@ -26,3 +28,6 @@
 - 주방 가전(11/2): ovenstack.glb = "Oven, Microwave and Winecooler" by lutz_westerfeld, CC BY 4.0, https://sketchfab.com/3d-models/60ffe27b68dd4f9cb9f79b7b61350311 (와인쿨러와 앞면 제작자 글자 지움, 0.6). hob.glb = "Bosch Series 6 Induction Hob With Extractor" by 3dvisualisierung, CC BY 4.0, https://sketchfab.com/3d-models/87ba25dddee44f6da9dc35bac1bfd015 (0.7, 화면엔 브랜드 표시 없음).
 - 안방 라운지 체어(11/2): mid_century_lounge_chair = Poly Haven CC0(shrink_glb 512, 0.5). 시네마 영화는 파일을 넣지 않고 위키미디어에서 재생: 〈샤레이드〉(Stanley Donen, 1963, 퍼블릭 도메인), 〈신텔〉(Blender Foundation, CC BY 3.0), 〈스프링〉(Blender Studio, CC BY 4.0). 인터넷이 없거나 막히면 원래의 빛 화면으로 돌아감.
 - 3층 라이브러리와 온실(11/2, Poly Haven CC0): book_encyclopedia_set_01(낱장 면 빼고 표지만, 책등 아틀라스는 서가 인스턴스에도 씀), Chandelier_01, GreenChair_01, ClassicConsole_01, marble_bust_01, pachira_d(pachira_aquatica_01의 가장 큰 그루), fern_b(fern_02의 한 포기). sim/pick_nodes.mjs로 고른 뒤 slim_model.mjs. 원본은 sim/_ph/
+- 테라스(11/3, Poly Haven CC0): outdoor_set.glb = outdoor_table_chair_set_01, grass_tuft.glb = grass_medium_01, fern.glb = fern_02 (slim_model, slim_tree).
+- 도로 차와 강 위 배(11/3, Poly Pizza, slim_model로 줄임): CC0 = v_suv.glb "SUV" by Quaternius (poly.pizza/m/xsMtZhBkxL), b_sail.glb "Sail Boat" by Quaternius (poly.pizza/m/BgSZXwmm7k). CC BY 3.0 = v_sedan.glb "Car" by Quaternius (poly.pizza/m/HQ0hvRM2XR), v_pickup.glb "Mitsubishi L200" by Muhammad Reyhan (poly.pizza/m/4qjS9tFhsJg), b_ferry.glb "Boat" by Poly by Google (poly.pizza/m/c2SYxaiPfF3), b_cruise.glb "Cruise ship" by Poly by Google (poly.pizza/m/dgLCxDWhnZQ), b_liner.glb "Cruise liner" by Poly by Google (poly.pizza/m/cPiY_8RZMHE), b_motor.glb "Boat" by Poly by Google (poly.pizza/m/8vekojz4Abf)
+- 오리배(11/3): b_swan.glb = "Swanboat" by yuma727, CC BY 4.0, https://sketchfab.com/3d-models/swanboat-a80e756ed56e4df8a24800c349f1d878 (유진님 계정으로 받음. 왕관과 페달을 빼고 선체를 파랑, 좌석을 노랑으로 바꾸고 눈의 흰 점을 지운 뒤 면 수를 줄임, sim/_dl/swanboat)
