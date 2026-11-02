@@ -28,6 +28,33 @@
 - 주방 가전(11/2): ovenstack.glb = "Oven, Microwave and Winecooler" by lutz_westerfeld, CC BY 4.0, https://sketchfab.com/3d-models/60ffe27b68dd4f9cb9f79b7b61350311 (와인쿨러와 앞면 제작자 글자 지움, 0.6). hob.glb = "Bosch Series 6 Induction Hob With Extractor" by 3dvisualisierung, CC BY 4.0, https://sketchfab.com/3d-models/87ba25dddee44f6da9dc35bac1bfd015 (0.7, 화면엔 브랜드 표시 없음).
 - 안방 라운지 체어(11/2): mid_century_lounge_chair = Poly Haven CC0(shrink_glb 512, 0.5). 시네마 영화는 파일을 넣지 않고 위키미디어에서 재생: 〈샤레이드〉(Stanley Donen, 1963, 퍼블릭 도메인), 〈신텔〉(Blender Foundation, CC BY 3.0), 〈스프링〉(Blender Studio, CC BY 4.0). 인터넷이 없거나 막히면 원래의 빛 화면으로 돌아감.
 - 3층 라이브러리와 온실(11/2, Poly Haven CC0): book_encyclopedia_set_01(낱장 면 빼고 표지만, 책등 아틀라스는 서가 인스턴스에도 씀), Chandelier_01, GreenChair_01, ClassicConsole_01, marble_bust_01, pachira_d(pachira_aquatica_01의 가장 큰 그루), fern_b(fern_02의 한 포기). sim/pick_nodes.mjs로 고른 뒤 slim_model.mjs. 원본은 sim/_ph/
-- 테라스(11/3, Poly Haven CC0): outdoor_set.glb = outdoor_table_chair_set_01, grass_tuft.glb = grass_medium_01, fern.glb = fern_02 (slim_model, slim_tree).
+- 테라스(11/3, Poly Haven CC0): grass_tuft.glb = grass_medium_01, fern.glb = fern_02 (slim_model, slim_tree).
 - 도로 차와 강 위 배(11/3, Poly Pizza, slim_model로 줄임): CC0 = v_suv.glb "SUV" by Quaternius (poly.pizza/m/xsMtZhBkxL), b_sail.glb "Sail Boat" by Quaternius (poly.pizza/m/BgSZXwmm7k). CC BY 3.0 = v_sedan.glb "Car" by Quaternius (poly.pizza/m/HQ0hvRM2XR), v_pickup.glb "Mitsubishi L200" by Muhammad Reyhan (poly.pizza/m/4qjS9tFhsJg), b_ferry.glb "Boat" by Poly by Google (poly.pizza/m/c2SYxaiPfF3), b_cruise.glb "Cruise ship" by Poly by Google (poly.pizza/m/dgLCxDWhnZQ), b_liner.glb "Cruise liner" by Poly by Google (poly.pizza/m/cPiY_8RZMHE), b_motor.glb "Boat" by Poly by Google (poly.pizza/m/8vekojz4Abf)
 - 오리배(11/3): b_swan.glb = "Swanboat" by yuma727, CC BY 4.0, https://sketchfab.com/3d-models/swanboat-a80e756ed56e4df8a24800c349f1d878 (유진님 계정으로 받음. 왕관과 페달을 빼고 선체를 파랑, 좌석을 노랑으로 바꾸고 눈의 흰 점을 지운 뒤 면 수를 줄임, sim/_dl/swanboat)
+
+## 서재 책 본문
+빌드에 내장되어 인터넷 없이 열림. `node gen_books.mjs <원문 폴더>` → `src/text/books.js`(한자 읽기표 hanja.json), 본문 글꼴은 고운바탕(SIL OFL) 부분 글꼴 `gen_bookfont.py` → `src/text/bookfont.js`.
+한국 저작권: 1962년 이전 사망 작가는 보호기간 만료(2013년 70년 연장 대상 아님). 원문은 한국어 위키문헌(ko.wikisource.org), 영어는 Project Gutenberg(머리말과 꼬리말을 뺀 본문).
+
+| 작가 | 사망 | 넣은 작품 | 판본 |
+|---|---|---|---|
+| 김소월 | 1934 | 진달래꽃(1925) 124편 | 위키문헌 현대어 표기 |
+| 한용운 | 1944 | 님의 침묵(1926) 94편 | 위키문헌 현대어 표기 |
+| 윤동주 | 1945 | 하늘과 바람과 별과 시 72편 | 1948, 1955년판. 한자만 한글로, 읍니다는 습니다로, 나머지 표기는 원본 그대로 |
+| 이육사 | 1944 | 육사시집(1946)에서 16편 | 위키문헌 |
+| 정지용 | 1950 | 향수, 창, 바다(오늘의 시에만) | 위키문헌 |
+| 이장희 | 1929 | 봄은 고양이로다(오늘의 시에만) | 위키문헌 |
+| 현진건 | 1943 | 운수 좋은 날, B사감과 러브레터 | 위키문헌 |
+| 이효석 | 1942 | 메밀꽃 필 무렵 | 위키문헌 |
+| 김유정 | 1937 | 봄봄, 동백꽃, 금 따는 콩밭 | 위키문헌 |
+| 이상 | 1937 | 날개, 권태, 산촌여정 | 위키문헌 |
+| 김동인 | 1951 | 감자, 배따라기 | 위키문헌 |
+| 나도향 | 1926 | 그믐달 | 위키문헌 |
+| F. Scott Fitzgerald | 1940 | The Great Gatsby(1925), Gutenberg 64317 | |
+| O. Henry | 1910 | The Gift of the Magi(1905), Gutenberg 7256 | |
+| Oscar Wilde | 1900 | The Happy Prince, The Selfish Giant(1888), Gutenberg 902 | |
+| Edgar Allan Poe | 1849 | The Tell-Tale Heart(1843), Gutenberg 2148 | |
+| Charlotte Perkins Gilman | 1935 | The Yellow Wallpaper(1892), Gutenberg 1952 | |
+| William Shakespeare | 1616 | Sonnets(1609), Gutenberg 1041 | |
+
+뺀 것: 염상섭(1963 사망, 한국에서 보호 중), 백석(1996), 주요한(1979), Robert Frost(1963, 미국은 만료지만 한국은 보호 중), 김영랑(1950, 만료지만 위키문헌에 1935년 원문 표기만 있어 읽기 어려움).
