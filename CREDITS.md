@@ -1,4 +1,5 @@
 # 더 리버 원에 쓴 외부 재료
+게임 안 크레딧 화면은 src/credits.js. 새 재료를 넣으면 여기와 그 파일에 같이 적음.
 전부 Poly Haven(polyhaven.com) CC0. 출처 표기 의무 없음, 상업 사용 가능.
 - 재질(512 WebP로 줄임): marble_01, white_plaster_02, natural_walnut_veneer, smoked_walnut_veneer, rough_linen, velour_velvet
 - 모델(meshopt + WebP 1024/512): Ottoman_01, ceramic_vase_01, modern_ceiling_lamp_01, potted_plant_02, potted_plant_04, wine_bottles_01
@@ -66,3 +67,118 @@
   - plates.glb = "Weightlifting Bumper Plates" by Sousinho, CC BY 4.0(NoAI), https://sketchfab.com/3d-models/221e92f466114ffc99c1bc9c86a4ad17
   - weightroom.glb = "Weight Room Set 2" by Tytan, CC BY 4.0, https://sketchfab.com/3d-models/fa481412927e43dfbeab9f6da464c15b
   - sunbed.glb = "Beach Chair Sunbed low Low-poly 3D model" by cvato5555, CC BY 4.0, https://sketchfab.com/3d-models/da9838a86f594664b1dc4dba7edf1fe2 (천을 아이보리로 바꿈: CC BY 수정 표시)
+
+## 음악 (11/3, 파일에 넣지 않고 스트리밍, src/music.js)
+- 쇼팽 녹턴, 왈츠, 전주곡: Musopen 쇼팽 전집, CC0, https://archive.org/details/musopen-chopin
+- 캐롤 판: "Starlifter and Roots in Blue" 2020 (United States Air Force Band of Mid-America) 11곡, 미국 정부 저작물이라 퍼블릭 도메인, Wikimedia Commons 파일명 `<곡명> (2020) - Starlifter and Roots in Blue - United States Air Force Band of Mid-America.mp3`
+- 합창 캐롤 판: Silent Night, Silent Night (1990), Carols of the Season (Singing Sergeants, United States Air Force Band), 퍼블릭 도메인, Wikimedia Commons. Jingle Bells (Calm), Deck the Halls A (Kevin MacLeod), CC BY 3.0
+- 보사노바와 2층 라운지 음악: Bossa Antigua, Casa Bossa Nova, BossaBossa, Backbay Lounge, Airport Lounge, Gymnopedie No. 1, 2, 3 (Kevin MacLeod, incompetech.com), CC BY 3.0, Wikimedia Commons
+- 곡 자체도 모두 보호기간이 끝났음: Silent Night(1818), Jingle Bells(1857), O Holy Night(1847), Auld Lang Syne, Satie(1888). 재생 주소는 src/music.js에 전부 있음
+- 한강 산책로와 점프 공원(11/3, Poly Haven CC0): 재질 concrete_pavers(보행로 블록), granite_wall(호안), rubber_tiles(놀이터 고무 바닥, tex512.mjs). 모델 modular_street_seating(벤치), metal_trash_can, wooden_picnic_table, rock_07(징검돌, 회색으로 물들임), rock_09·boulder_01(내려받았으나 미사용, boulder는 2MB라 뺌), tree_stump_01/02(발판), planter_box_01(허들), old_tyre(slim_model.mjs). 원본은 sim/_ph/
+- 점프 공원과 편의점 소품(11/3, Poly Pizza, sim/_dl/polypizza2, slim_model.mjs). 전부 CC BY 3.0이라 출시물에 크레딧 필요:
+  - bike_a.glb = "Bicycle" by Poly by Google, poly.pizza/m/19VoUuA2pcN
+  - bike_b.glb = "Bicycle" by Poly by Google, poly.pizza/m/b6USSQA731J
+  - bike_rack.glb = "Bike Rack" by J-Toastie, poly.pizza/m/DzsJ2LPVKZ
+  - parasol.glb = "Parasol" by Zsky, poly.pizza/m/FLEbO2jluO
+  - store.glb = "Store" by Mrhadley, poly.pizza/m/TJwNAgLlrS
+  - vending.glb = "Vending Machine" by Don Carson, poly.pizza/m/0CX6wj64Swu
+  - slide.glb = "Slide" by Poly by Google, poly.pizza/m/dDe3njWPbg0
+  - junglegym.glb = "Jungle gym" by Poly by Google, poly.pizza/m/0-7U_RTHzKT
+  - swing.glb = "Swing set" by Poly by Google, poly.pizza/m/e-IJdcqZH4p
+  - seesaw.glb = "Seesaw" by Poly by Google, poly.pizza/m/8Ha-8ms-TJb
+
+## 갤러리와 카페 그림(11/3)
+그림 파일은 첫 로딩 재료에 넣지 않음. assets/art/{s,l}/*.webp → 빌드가 dist/gallery와 reports/gallery로 복사 → 층에 들어갈 때 받음. 원본 목록 art_list.json, 받기 gen_art_dl.mjs, 가공 gen_art.py.
+작가는 모두 1955년 이전 사망이고(가장 늦은 사람은 뭉크 1944) 작품은 그 전에 완성됨. 아래는 작품별 받은 곳과 표시.
+- sunrise: 클로드 모네, 인상, 해돋이, 1872. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg
+- parasol: 클로드 모네, 파라솔을 든 여인, 1875. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet,_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son,_1875,_NGA_61379.jpg
+- adresse: 클로드 모네, 생타드레스의 정원, 1867. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Garden_at_Sainte-Adresse_MET_DT48.jpg
+- grenouillere: 클로드 모네, 라 그르누예르, 1869. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:La_Grenouill%C3%A8re_MET_DT833.jpg
+- poppies: 클로드 모네, 아르장퇴유 근처의 양귀비밭, 1875. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Poppy_Fields_near_Argenteuil_MET_DT1034.jpg
+- stacks: 클로드 모네, 건초더미, 여름의 끝, 1891. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Summer)_-_1985.1103_-_Art_Institute_of_Chicago.jpg
+- normandy: 클로드 모네, 노르망디 열차의 도착, 1877. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Arrival_of_the_Normandy_Train,_Gare_Saint-Lazare_-_Google_Art_Project.jpg
+- rouen: 클로드 모네, 루앙 대성당, 정문, 1894. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Rouen_Cathedral-_The_Portal_(Sunlight)_MET_DT2185.jpg
+- fourtrees: 클로드 모네, 네 그루 나무, 1891. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Four_Trees_MET_DT832.jpg
+- magpie: 클로드 모네, 까치, 1869. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg
+- kerchief: 클로드 모네, 빨간 스카프, 1873. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1958.39
+- pourville: 클로드 모네, 푸르빌의 썰물, 1882. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1947.196
+- antibes: 클로드 모네, 앙티브의 정원사 집, 1888. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1916.1044
+- lilies_b: 클로드 모네, 수련, 1926. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1960.81
+- lilies_d: 클로드 모네, 수련, 1906. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg
+- lilies_e: 클로드 모네, 수련 연못, 1899. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet,_The_Water-Lily_Pond_(National_Gallery,_London).jpg
+- bridge: 클로드 모네, 수련 연못 위의 다리, 1899. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Bridge_over_a_Pond_of_Water_Lilies_MET_DT1854.jpg
+- footbridge: 클로드 모네, 일본식 다리, 1899. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet,_The_Japanese_Footbridge,_1899,_NGA_74796.jpg
+- c1: 클로드 모네, 봄, 꽃 핀 과일나무, 1873. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Spring_(Fruit_Trees_in_Bloom)_MET_DT1902.jpg
+- c2: 클로드 모네, 지베르니 근처 센강의 아침, 1897. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Morning_on_the_Seine_near_Giverny_MET_DT1903.jpg
+- c3: 클로드 모네, 봄꽃, 1864. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1953.155
+- venus: 산드로 보티첼리, 비너스의 탄생, 1485. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg
+- liberty: 외젠 들라크루아, 민중을 이끄는 자유의 여신, 1830. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg
+- nightwatch: 렘브란트 판 레인, 야경, 1642. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Night_Watch_-_HD.jpg
+- meninas: 디에고 벨라스케스, 시녀들, 1656. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg
+- jatte: 조르주 쇠라, 그랑드 자트 섬의 일요일 오후, 1886. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg
+- starry: 빈센트 반 고흐, 별이 빛나는 밤, 1889. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+- mona: 레오나르도 다 빈치, 모나리자, 1519. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+- pearl: 요하네스 페르메이르, 진주 귀걸이를 한 소녀, 1665. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg
+- milkmaid: 요하네스 페르메이르, 우유 따르는 여인, 1660. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg
+- pitcher: 요하네스 페르메이르, 물병을 든 젊은 여인, 1662. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Young_Woman_with_a_Water_Pitcher_MET_DP353257.jpg
+- aristotle: 렘브란트 판 레인, 호메로스 흉상을 바라보는 아리스토텔레스, 1653. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Aristotle_with_a_Bust_of_Homer_MET_DP319026.jpg
+- harvest: 피터르 브뤼헐, 수확하는 사람들, 1565. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg
+- hals: 프란스 할스, 즐거운 술꾼, 1629. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Frans_Hals_002.jpg
+- roosterman: 프란스 할스, 틸레만 로스테르만의 초상, 1634. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1999.173
+- rembeard: 렘브란트 판 레인, 모자를 쓴 수염 난 남자, 1658. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1950.252
+- windmill: 야코프 판 라위스달, 풍차가 있는 풍경, 1646. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1967.19
+- beyeren: 아브라함 판 베이예런, 은 주전자와 햄, 과일, 1663. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1960.80
+- delft: 요하네스 페르메이르, 델프트 풍경, 1661. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:View_of_Delft,_by_Johannes_Vermeer.jpg
+- balance: 요하네스 페르메이르, 저울을 든 여인, 1664. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Woman_Holding_a_Balance_-_Google_Art_Project.jpg
+- artpaint: 요하네스 페르메이르, 회화의 기술, 1667. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg
+- musicians: 카라바조, 음악가들, 1597. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Musicians_MET_DP-687-001.jpg
+- andrew: 카라바조, 성 안드레아의 순교, 1607. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1976.2
+- calabazas: 디에고 벨라스케스, 칼라바사스의 초상, 1632. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1965.15
+- burning: 윌리엄 터너, 국회의사당의 화재, 1835. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1942.647
+- dance: 에드가 드가, 발레 수업, 1874. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Dance_Class_MET_DT46.jpg
+- frieze: 에드가 드가, 춤추는 사람들, 1895. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1946.83
+- boating: 에두아르 마네, 보트 놀이, 1874. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Boating_MET_DT45.jpg
+- cards: 폴 세잔, 카드놀이 하는 사람들, 1892. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Card_Players_MET_DP231550.jpg
+- paris: 귀스타브 카유보트, 파리의 거리, 비 오는 날, 1877. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg
+- sisters: 피에르 오귀스트 르누아르, 두 자매, 1881. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Two_Sisters_(On_the_Terrace)_-_Google_Art_Project.jpg
+- lunch: 피에르 오귀스트 르누아르, 뱃놀이 일행의 점심, 1881. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg
+- moulin: 피에르 오귀스트 르누아르, 물랭 드 라 갈레트의 무도회, 1876. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Google_Art_ProjectFXD.jpg
+- bathchild: 메리 커샛, 아이의 목욕, 1893. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg
+- sainte: 폴 세잔, 생트빅투아르산, 1904. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1958.21
+- madamex: 존 싱어 사전트, 마담 X, 1884. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Madame_X_(Madame_Pierre_Gautreau),_John_Singer_Sargent,_1884_(unfree_frame_crop).jpg
+- tahiti: 폴 고갱, 아베 마리아, 1891. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Ia_Orana_Maria_(Hail_Mary)_MET_DT1025.jpg
+- kiss: 구스타프 클림트, 키스, 1908. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg
+- scream: 에드바르 뭉크, 절규, 1893. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Scream_-_NG.M.00939_-_National_Museum_of_Art,_Architecture_and_Design.jpg
+- bedroom: 빈센트 반 고흐, 침실, 1889. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg
+- cypress: 빈센트 반 고흐, 사이프러스가 있는 밀밭, 1889. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Wheat_Field_with_Cypresses_MET_DT1567.jpg
+- irises: 빈센트 반 고흐, 붓꽃, 1890. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Irises_MET_DP346474.jpg
+- sunflowers: 빈센트 반 고흐, 해바라기, 1888. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Sunflowers_(1888,_National_Gallery_London).jpg
+- strawhat: 빈센트 반 고흐, 밀짚모자를 쓴 자화상, 1887. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-portrait_with_straw_hat_-_Google_Art_Project.jpg
+- terrace: 빈센트 반 고흐, 밤의 카페 테라스, 1888. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Terrace_of_a_Caf%C3%A9_at_Night_(Place_du_Forum)_1888.jpg
+- menders: 빈센트 반 고흐, 길을 고치는 사람들, 1889. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1947.209
+- poplars: 빈센트 반 고흐, 포플러 두 그루, 1889. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1958.32
+- suwa: 우타가와 히로시게, 스와 호수, 1850. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1985.259
+- sumida: 우타가와 히로시게, 스미다강의 밤, 1850. CC0. Cleveland Museum of Art Open Access, https://clevelandart.org/art/1920.274
+- socrates: 자크 루이 다비드, 소크라테스의 죽음, 1787. CC0. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Death_of_Socrates_MET_DT40.jpg
+- temeraire: 윌리엄 터너, 전함 테메레르, 1839. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg
+- wanderer: 카스파르 다비트 프리드리히, 안개 바다 위의 방랑자, 1818. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg
+- gleaners: 장 프랑수아 밀레, 이삭 줍는 여인들, 1857. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg
+- ermine: 레오나르도 다 빈치, 흰 담비를 안은 여인, 1490. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg
+- athens: 라파엘로 산치오, 아테네 학당, 1511. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Raphael_School_of_Athens.jpg
+- odalisque: 장 오귀스트 도미니크 앵그르, 그랑드 오달리스크, 1814. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Ingre,_Grande_Odalisque.jpg
+- swing: 장 오노레 프라고나르, 그네, 1767. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Fragonard,_The_Swing.jpg
+- babel: 피터르 브뤼헐, 바벨탑, 1563. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg
+- arnolfini: 얀 반 에이크, 아르놀피니 부부의 초상, 1434. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg
+- whistler: 제임스 휘슬러, 화가의 어머니, 1871. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Whistlers_Mother_high_res.jpg
+- wave: 가쓰시카 호쿠사이, 가나가와 해변의 높은 파도 아래, 1831. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Great_Wave_off_Kanagawa2.jpg
+- redfuji: 가쓰시카 호쿠사이, 붉은 후지산, 1831. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Fine_Wind,_Clear_Morning_(Gaif%C5%AB_kaisei)_-_Google_Art_Project.jpg
+- shower: 우타가와 히로시게, 오하시 다리의 소나기, 1857. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Hiroshige,_Sudden_shower_over_Shin-%C5%8Chashi_bridge_and_Atake,_1857.jpg
+- plum: 우타가와 히로시게, 가메이도의 매화 정원, 1857. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Ando_Hiroshige_-_Plum_Garden,_Kameido_-_Google_Art_Project.jpg
+- beauties: 기타가와 우타마로, 당대 세 미인, 1793. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Utamaro1.jpg
+- inwang: 정선, 인왕제색도, 1751. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Inwangjesaekdo.jpg
+- geumgang: 정선, 금강전도, 1734. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Geumgangjeondo.jpg
+- lilies_a: 클로드 모네, 수련, 1926. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_Google_Art_Project_(431238).jpg
+- lilies_c: 클로드 모네, 수련, 1926. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Claude_Monet,_Water_Lilies,_ca._1915-1926.jpg
+- miindo: 신윤복, 미인도, 1805. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Shin_Yun-bok_-_A_Beautiful_Woman_-_Google_Art_Project.jpg
+- ssireum: 김홍도, 씨름, 1780. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Danwon-Ssireum.jpg
+- 거실 턴테이블(11/3): turntable.glb = "Yamaha TT-300 Record Player" by AleixoAlonso, CC BY 4.0, https://sketchfab.com/3d-models/3577a2a1a0c24218bd5d768beccf218e (유진님 계정으로 1k GLB를 받아 slim_model.mjs 0.55, 텍스처 512. 부품을 나눠 플래터와 톤암을 움직임, 판과 라벨은 코드로 얹음. CC0 턴테이블은 Poly Haven, Poly Pizza, Sketchfab에 쓸 만한 것이 없었음)
