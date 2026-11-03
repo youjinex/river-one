@@ -66,7 +66,7 @@
   - inclinebench.glb = "Incline Bench" by Sousinho, CC BY 4.0(NoAI), https://sketchfab.com/3d-models/bdc274649c234c188d2d4f4c732acb1c
   - plates.glb = "Weightlifting Bumper Plates" by Sousinho, CC BY 4.0(NoAI), https://sketchfab.com/3d-models/221e92f466114ffc99c1bc9c86a4ad17
   - weightroom.glb = "Weight Room Set 2" by Tytan, CC BY 4.0, https://sketchfab.com/3d-models/fa481412927e43dfbeab9f6da464c15b
-  - sunbed.glb = "Beach Chair Sunbed low Low-poly 3D model" by cvato5555, CC BY 4.0, https://sketchfab.com/3d-models/da9838a86f594664b1dc4dba7edf1fe2 (천을 아이보리로 바꿈: CC BY 수정 표시)
+  - sunbed.glb = "Beach Chair Sunbed low Low-poly 3D model" by cvato5555, CC BY 4.0, https://sketchfab.com/3d-models/da9838a86f594664b1dc4dba7edf1fe2 (천을 아이보리로 바꿈. 11/3 오후에 뺌: 배처럼 보이고 사람이 아래로 들어가서 tower.js의 코드 선베드로 바꿈)
 
 ## 음악 (11/3, 파일에 넣지 않고 스트리밍, src/music.js)
 - 쇼팽 녹턴, 왈츠, 전주곡: Musopen 쇼팽 전집, CC0, https://archive.org/details/musopen-chopin
