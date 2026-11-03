@@ -58,3 +58,11 @@
 | William Shakespeare | 1616 | Sonnets(1609), Gutenberg 1041 | |
 
 뺀 것: 염상섭(1963 사망, 한국에서 보호 중), 백석(1996), 주요한(1979), Robert Frost(1963, 미국은 만료지만 한국은 보호 중), 김영랑(1950, 만료지만 위키문헌에 1935년 원문 표기만 있어 읽기 어려움).
+- 4층 헬스장과 수영장 선베드(11/3, Sketchfab, 유진님 계정으로 1k GLB를 받음, sim/slim_model.mjs로 단순화, 텍스처 WebP 512(원판 256), meshopt). 공개할 때 아래 크레딧을 표기해야 함:
+  - treadmill.glb = "Treadmill Machine" by Sousinho, CC BY 4.0(작가 표시 NoAI: 생성형 AI 학습에 쓰지 말 것), https://sketchfab.com/3d-models/faed3a2a275b4fd68089e1d8bdfb7f89
+  - squatrack.glb = "Squat Rack With Bar" by Sousinho, CC BY 4.0(NoAI), https://sketchfab.com/3d-models/8e3109a049274de2941e7a2e014aa10d
+  - flatbench.glb = "Flat Bench" by Sousinho, CC BY 4.0(NoAI), https://sketchfab.com/3d-models/b56ab6e2b50246c88c7f72a4f16fc857
+  - inclinebench.glb = "Incline Bench" by Sousinho, CC BY 4.0(NoAI), https://sketchfab.com/3d-models/bdc274649c234c188d2d4f4c732acb1c
+  - plates.glb = "Weightlifting Bumper Plates" by Sousinho, CC BY 4.0(NoAI), https://sketchfab.com/3d-models/221e92f466114ffc99c1bc9c86a4ad17
+  - weightroom.glb = "Weight Room Set 2" by Tytan, CC BY 4.0, https://sketchfab.com/3d-models/fa481412927e43dfbeab9f6da464c15b
+  - sunbed.glb = "Beach Chair Sunbed low Low-poly 3D model" by cvato5555, CC BY 4.0, https://sketchfab.com/3d-models/da9838a86f594664b1dc4dba7edf1fe2 (천을 아이보리로 바꿈: CC BY 수정 표시)
