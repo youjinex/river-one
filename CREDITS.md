@@ -73,11 +73,43 @@
 - 캐롤 판: "Starlifter and Roots in Blue" 2020 (United States Air Force Band of Mid-America) 11곡, 미국 정부 저작물이라 퍼블릭 도메인, Wikimedia Commons 파일명 `<곡명> (2020) - Starlifter and Roots in Blue - United States Air Force Band of Mid-America.mp3`
 - 합창 캐롤 판: Silent Night, Silent Night (1990), Carols of the Season (Singing Sergeants, United States Air Force Band), 퍼블릭 도메인, Wikimedia Commons. Jingle Bells (Calm), Deck the Halls A (Kevin MacLeod), CC BY 3.0
 - 보사노바와 2층 라운지 음악: Bossa Antigua, Casa Bossa Nova, BossaBossa, Backbay Lounge, Airport Lounge, Gymnopedie No. 1, 2, 3 (Kevin MacLeod, incompetech.com), CC BY 3.0, Wikimedia Commons
-- 힙합 판(11/3 오후, Free Music Archive 곡을 위키미디어 공용 사본으로 스트리밍, 아이폰 때문에 공용의 mp3 변환본 주소를 씀, 상업 이용 무관 CC BY):
-  - Broke For Free, "Simple Hop" (앨범 Slam Funk), CC BY 3.0, https://freemusicarchive.org/music/Broke_For_Free/Slam_Funk/ , 공용 파일 Broke_For_Free_-_11_-_Simple_Hop.ogg
-  - JBlanked, "Beat Cook Up 1 (ft. Bastardboy Production)", "Beat Cook Up 3", "Beat Cook Up 5" (앨범 Friendly Takeover), CC BY 4.0, 공용 파일 JBlanked_-_02_-_..., 03, 05 (공용 설명에 FMA 출처 링크)
-  - Purrple Cat, "Brain Fog", "Stale Cookies Still Taste Pretty Good" (앨범 Brain Fog, 2019), "Loading Screen" (앨범 Nostalgia and Moving On), CC BY 4.0, https://freemusicarchive.org/music/purrple-cat/
+- 힙합 판(11/4 교체, 랩 곡 위주. Free Music Archive 장르 태그 Hip-Hop, rap 확인. 공용 사본을 mp3 변환본으로 스트리밍):
+  - Kellee Maize, "Signs", CC BY 3.0, 공용 https://commons.wikimedia.org/wiki/File:Kellee_Maize_-_04_-_04_Signs.ogg, 원 출처 https://freemusicarchive.org/music/Kellee_Maize/Aligned_Archetype/04__Kellee_Maize__Signs__Aligned_Archetype__FrostWirecom
+  - GHATS, "Mind Over Matter", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:GHATS_-_MIND_OVER_MATTER.wav, 원 출처: 작가가 공용에 직접 올림
+  - K3N, "One Million Ways", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:K3N_-_One_Million_Ways.ogg, 원 출처 https://freemusicarchive.org/music/K3N_X/One_Million_Ways/One_Million_Ways
+  - Hi-Rez (Prod. Instinctz Beats), "Better Place", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:Hi-Rez_-_04_-_Better_Place_Prod_by_Instinctz_Beats.ogg, 원 출처 https://freemusicarchive.org/music/Hi-Rez/Lost_Time/04_Hi_Rez_Better_Place_Lost_Time_2013_FROSTWIRE_FROSTCLICK_CREATIVE_COMMONS
+  - Black Ant, "Underdog", CC BY 3.0, 공용 https://commons.wikimedia.org/wiki/File:Black_Ant_-_14_-_Underdog.mp3, 원 출처 https://freemusicarchive.org/music/Black_Ant/Free_Beats_Sel_3/
+  - CuzOH! Black feat. Wordsmith, "Stronger Living", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:CuzOH_Black_Feat_Wordsmith_-_05_-_Stronger_Living_Feat_Wordsmith.ogg, 원 출처 https://freemusicarchive.org/music/CuzOH_Black_Feat_Wordsmith/FrostWire_Creative_Commons_Mixtape_Volume_4/05_Wordsmith_Stronger_Living_The_Backstage_EP_FROSTCLICK_FROSTWIRE_CREATIVE_COMMONS_MIXTAPE_VOL_4
+  - Nangdo, "Rattan Joint", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:Nangdo_-_Rattan_Joint.ogg, 원 출처 https://freemusicarchive.org/music/Nangdo/Chrome/05_Rattan_Joint
+  - Kellee Maize, "Mothership", CC BY 3.0, 공용 https://commons.wikimedia.org/wiki/File:Kellee_Maize_-_05_-_05_Mothership.ogg, 원 출처 https://freemusicarchive.org/music/Kellee_Maize/Aligned_Archetype/05__Kellee_Maize__Mothership__Aligned_Archetype__FrostWirecom
+  - Jules, "Gone", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:Jules_-_Jules_01_Gone.ogg, 원 출처 https://freemusicarchive.org/music/Jules/Gone_1676/Jules_01_Gone
+  - 빼낸 옛 곡: Broke For Free "Simple Hop", JBlanked "Beat Cook Up 1, 3, 5", Purrple Cat 3곡(힙합 같지 않다는 말로 교체)
   - ccMixter는 다른 사이트에서의 재생을 403으로 막고, archive.org의 힙합은 대부분 NC-ND라 뺌
+- 합창 판(11/4): 미 공군 밴드 Singing Sergeants, 미국 정부 저작물이라 퍼블릭 도메인(music.af.mil Public Domain Music). 곡도 보호기간이 끝났거나 공군 단원 작곡:
+  - U.S. Air Force Band Singing Sergeants, "셰넌도어", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Shenandoah_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Singing Sergeants, "Soave sia il vento", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:%22Soave_Sia_Il_Vento%22_from_Cosi_Fan_Tutte_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Singing Sergeants, "무정한 마음", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Core_%27ngrato_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Singing Sergeants, "Raisins and Almonds", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Raisins_and_Almonds_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Singing Sergeants, "Fresh Powder", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Fresh_Powder_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Singing Sergeants, "Skip to My Lou", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Skip_to_My_Lou_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+- 재즈 보컬 판(11/4):
+  - Pierce Murphy, "If You Won’t Choose Me", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:Pierce_Murphy_-_01_-_If_You_Wont_Choose_Me.ogg, 원 출처 https://freemusicarchive.org/music/Pierce_Murphy/This_Isnt_Magic_It_Is_Just_Music/Pierce_Murphy_-_This_Isnt_Magic_It_Is_Just_Music-_A_Demo_-_01_If_You_Wont_Choose_Me
+  - U.S. Air Force Band, "Amazing Grace", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Amazing_Grace_(USAFB_jazz_vocal).ogg, 원 출처 http://www.usafband.af.mil/ensembles/BandEnsSongs.asp?Ensemble=-1&Genre=6
+  - Pierce Murphy, "Just Give It Time", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:Pierce_Murphy_-_02_-_Just_Give_It_Time.ogg, 원 출처 https://freemusicarchive.org/music/Pierce_Murphy/This_Isnt_Magic_It_Is_Just_Music/Pierce_Murphy_-_This_Isnt_Magic_It_Is_Just_Music-_A_Demo_-_07_Just_Give_It_Time
+  - Frédéric Lardon feat. Laura Palmée, "Dans le love", CC0, 공용 https://commons.wikimedia.org/wiki/File:Frederic_Lardon_feat_Laura_Palme_-_09_-_Dans_le_love.ogg, 원 출처 https://freemusicarchive.org/music/Frederic_Lardon_feat_Laura_Palme/Korgi/Frederic_Lardon_feat_Laura_Palme_-_Korgi_-_09_Dans_le_love
+  - Pierce Murphy, "Will You Whisper", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:Pierce_Murphy_-_06_-_Will_You_Whisper.ogg, 원 출처 https://freemusicarchive.org/music/Pierce_Murphy/This_Isnt_Magic_It_Is_Just_Music/Pierce_Murphy_-_This_Isnt_Magic_It_Is_Just_Music-_A_Demo_-_11_Will_You_Whisper
+  - Pierce Murphy, "Try To Be Nice", CC BY 4.0, 공용 https://commons.wikimedia.org/wiki/File:Pierce_Murphy_-_03_-_Try_To_Be_Nice.ogg, 원 출처 https://freemusicarchive.org/music/Pierce_Murphy/This_Isnt_Magic_It_Is_Just_Music/Pierce_Murphy_-_This_Isnt_Magic_It_Is_Just_Music-_A_Demo_-_08_Try_To_Be_Nice
+  - Frédéric Lardon feat. Laura Palmée, "Dans la campagne", CC0, 공용 https://commons.wikimedia.org/wiki/File:Frederic_Lardon_feat_Laura_Palme_-_05_-_Dans_la_campagne.ogg, 원 출처 https://freemusicarchive.org/music/Frederic_Lardon_feat_Laura_Palme/Korgi/Frederic_Lardon_feat_Laura_Palme_-_Korgi_-_05_Dans_la_campagne
+- 빅밴드 판(11/4): 미 공군 Airmen of Note(퍼블릭 도메인)와 미 육군 Army Blues(CC0). Stardust(1927)와 아리랑은 곡도 보호기간이 끝났고 나머지는 단원 작곡:
+  - U.S. Air Force Band Airmen of Note, "Sheridan Square", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Sheridan_Square_-_Airmen_of_Note_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Army Blues, "Stardust", CC0, 공용 https://commons.wikimedia.org/wiki/File:US_Army_Blues_-_05_-_Stardust.ogg, 원 출처 https://freemusicarchive.org/music/US_Army_Blues/Live_At_Blues_Alley/0_-_05_-_The_US_Army_Blues_-_Stardust
+  - U.S. Air Force Band Airmen of Note, "Uno Mas", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Uno_Mas_-_Airmen_of_Note_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Airmen of Note, "아리랑", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Arirang_-_Airmen_of_Note_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Airmen of Note, "Blues for Mundy", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Blues_for_Mundy_-_Airmen_of_Note_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Airmen of Note, "It’s a Brand New Day", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:It%27s_a_Brand_New_Day_-_Airmen_of_Note_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+  - U.S. Air Force Band Airmen of Note, "Small Note Boogaloo", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Small_Note_Boogaloo_-_Airmen_of_Note_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
+- 시티팝은 CC BY나 퍼블릭 도메인 녹음을 찾지 못해 넣지 않음
+- 지하 1층 라운지 음악(11/3 저녁, 위키미디어 공용에서 스트리밍): Kevin MacLeod(incompetech.com) "Disco Lounge", "Club Diver", "Ether Disco", "Carpe Diem", "Electro Cabello", CC BY 3.0, 공용 파일명 `<곡명> (ISRC ...).mp3`. Tentacles "Lavanda (We Are Not Dj's Nu Disco Remix)", CC BY 4.0, 공용 파일 Tentacles_-_06_-_Lavanda_We_Are_Not_Djs_Nu_Disco_Remix.ogg(mp3 변환본으로 재생). 주소는 src/music.js의 CLUB
 - 곡 자체도 모두 보호기간이 끝났음: Silent Night(1818), Jingle Bells(1857), O Holy Night(1847), Auld Lang Syne, Satie(1888). 재생 주소는 src/music.js에 전부 있음
 - 한강 산책로와 점프 공원(11/3, Poly Haven CC0): 재질 concrete_pavers(보행로 블록), granite_wall(호안), rubber_tiles(놀이터 고무 바닥, tex512.mjs). 모델 modular_street_seating(벤치), metal_trash_can, wooden_picnic_table, rock_07(징검돌, 회색으로 물들임), rock_09·boulder_01(내려받았으나 미사용, boulder는 2MB라 뺌), tree_stump_01/02(발판), planter_box_01(허들), old_tyre(slim_model.mjs). 원본은 sim/_ph/
 - 점프 공원과 편의점 소품(11/3, Poly Pizza, sim/_dl/polypizza2, slim_model.mjs). 전부 CC BY 3.0이라 출시물에 크레딧 필요:
@@ -196,3 +228,6 @@
   - 〈커피 런〉 Coffee Run (2020), Blender Studio, CC BY 4.0, commons.wikimedia.org/wiki/File:Coffee_Run_-_Blender_Open_Movie-full_movie.webm
   - 〈카미난데스 3: 라미고스〉 Caminandes 3: Llamigos (2016), Blender Foundation, CC BY 3.0, commons.wikimedia.org/wiki/File:Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm
   - 후보였지만 뺀 것: Charge(총격), Sprite Fright(호러 코미디), Cosmos Laundromat(자살 시도로 시작), Elephants Dream(난해), Caminandes 2(CC BY-SA)
+
+## 나무 잎(11/3)
+- leaf_atlas.webp = Poly Haven "Searsia Lucida"(https://polyhaven.com/a/searsia_lucida) CC0의 잎과 껍질 텍스처(1k PNG를 512 WebP로, 69KB). src/topiary.js가 이 잎으로 회양목, 월계수, 올리브 잎 판과 잎마다 기울기를 담은 노멀 판을 실행 중에 그려 씀. 로비 앞, 옥상, 47층 테라스 나무가 이 재료 하나를 같이 씀. 새 파일 추가 없음.
