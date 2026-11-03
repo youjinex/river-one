@@ -110,6 +110,24 @@
   - U.S. Air Force Band Airmen of Note, "Small Note Boogaloo", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Small_Note_Boogaloo_-_Airmen_of_Note_-_United_States_Air_Force_Band.mp3, 원 출처 https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/
 - 시티팝은 CC BY나 퍼블릭 도메인 녹음을 찾지 못해 넣지 않음
 - 지하 1층 라운지 음악(11/3 저녁, 위키미디어 공용에서 스트리밍): Kevin MacLeod(incompetech.com) "Disco Lounge", "Club Diver", "Ether Disco", "Carpe Diem", "Electro Cabello", CC BY 3.0, 공용 파일명 `<곡명> (ISRC ...).mp3`. Tentacles "Lavanda (We Are Not Dj's Nu Disco Remix)", CC BY 4.0, 공용 파일 Tentacles_-_06_-_Lavanda_We_Are_Not_Djs_Nu_Disco_Remix.ogg(mp3 변환본으로 재생). 주소는 src/music.js의 CLUB
+- 3층 라이브러리 음악(11/4, 서가 쪽에서만, src/music.js LIBRARY). Musopen 녹음은 Musopen이 퍼블릭 도메인이나 CC0로 내놓은 것, 미 육군 밴드는 미국 정부 저작물. 곡은 모두 보호기간이 끝남:
+  - 차이콥스키 곡, Musopen Symphony Orchestra 연주, "Symphony No. 6 “Pathétique” II", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Symphony_No._6_in_B_minor,_Op._74,_%27Pathetique%27_-_II._Allegro_con_gracia.ogg
+  - 보로딘 곡, Musopen String Quartet 연주, "String Quartet No. 2 III. Notturno", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Borodin_-_String_Quartet_No._2_in_D_major_-_III._Notturno._Andante_(Musopen_String_Quartet).flac
+  - 차이콥스키 곡, Musopen 연주, "Piano Concerto No. 1 II. Andantino", CC0, 공용 https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Concerto_No.1_in_B-flat_minor_Op.23,_II._Andantino.ogg
+  - 드보르자크 곡, Musopen String Quartet 연주, "String Quartet No. 12 “American” II. Lento", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k_-_String_Quartet_No._12_in_F_major,_Op._96_%27American%27_-_II._Lento_(Musopen_String_Quartet).flac
+  - 수크 곡, Musopen String Quartet 연주, "Meditation on the Old Czech Chorale, Op. 35a", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Josef_Suk_-_Meditation_Op_35a.ogg
+  - 차이콥스키 곡, U.S. Army Band Strings 연주, "Souvenir de Florence III", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Souvenir_de_Florence,_mvt-3_-_US_Army_Band.oga
+  - 그리그 곡, Musopen Symphony Orchestra 연주, "Peer Gynt: Morning Mood", 퍼블릭 도메인, 공용 https://commons.wikimedia.org/wiki/File:Musopen_-_Morning.ogg
+  - 브람스 곡, Musopen Symphony Orchestra 연주, "Symphony No. 3 III. Poco allegretto", CC0, 공용 https://commons.wikimedia.org/wiki/File:Brahms,_Symphony_No._3_in_F_Major,_Op._90_-_III._Poco_allegretto.ogg
+  - 차이콥스키 사계는 사람이 연주한 자유 이용 녹음을 공용과 archive.org에서 찾지 못함(공용 것은 MIDI 렌더링, CC BY-SA)
+- 갤러리 벤치 음악(11/4, galseat에 앉았을 때만, src/music.js GALLERY): 바흐 골드베르크 변주곡, Kimiko Ishizaka 연주(Open Goldberg Variations), CC0:
+  - Kimiko Ishizaka, "Aria", CC0, 공용 https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_01_Aria.mp3
+  - Kimiko Ishizaka, "Variatio 3", CC0, 공용 https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_04_Variatio_3_a_1_Clav._Canone_all_Unisuono.mp3
+  - Kimiko Ishizaka, "Variatio 13", CC0, 공용 https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_14_Variatio_13_a_2_Clav.mp3
+  - Kimiko Ishizaka, "Variatio 15", CC0, 공용 https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_16_Variatio_15_a_1_Clav._Canone_alla_Quinta.mp3
+  - Kimiko Ishizaka, "Variatio 21", CC0, 공용 https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_22_Variatio_21_Canone_alla_Settima.mp3
+  - Kimiko Ishizaka, "Variatio 25", CC0, 공용 https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_26_Variatio_25_a_2_Clav.mp3
+  - Kimiko Ishizaka, "Aria da Capo", CC0, 공용 https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_31_Aria_da_Capo_%C3%A8_Fine.mp3
 - 곡 자체도 모두 보호기간이 끝났음: Silent Night(1818), Jingle Bells(1857), O Holy Night(1847), Auld Lang Syne, Satie(1888). 재생 주소는 src/music.js에 전부 있음
 - 한강 산책로와 점프 공원(11/3, Poly Haven CC0): 재질 concrete_pavers(보행로 블록), granite_wall(호안), rubber_tiles(놀이터 고무 바닥, tex512.mjs). 모델 modular_street_seating(벤치), metal_trash_can, wooden_picnic_table, rock_07(징검돌, 회색으로 물들임), rock_09·boulder_01(내려받았으나 미사용, boulder는 2MB라 뺌), tree_stump_01/02(발판), planter_box_01(허들), old_tyre(slim_model.mjs). 원본은 sim/_ph/
 - 점프 공원과 편의점 소품(11/3, Poly Pizza, sim/_dl/polypizza2, slim_model.mjs). 전부 CC BY 3.0이라 출시물에 크레딧 필요:
@@ -231,3 +249,7 @@
 
 ## 나무 잎(11/3)
 - leaf_atlas.webp = Poly Haven "Searsia Lucida"(https://polyhaven.com/a/searsia_lucida) CC0의 잎과 껍질 텍스처(1k PNG를 512 WebP로, 69KB). src/topiary.js가 이 잎으로 회양목, 월계수, 올리브 잎 판과 잎마다 기울기를 담은 노멀 판을 실행 중에 그려 씀. 로비 앞, 옥상, 47층 테라스 나무가 이 재료 하나를 같이 씀. 새 파일 추가 없음.
+
+## 온실 꽃과 잎(11/4, Poly Haven CC0)
+- anthurium_botany_01.glb(343KB), calathea_orbifolia_01.glb(166KB), periwinkle_plant.glb(149KB): Poly Haven 모델(https://polyhaven.com/a/anthurium_botany_01, /calathea_orbifolia_01, /periwinkle_plant) CC0. 세트 파일에서 한 그루만 pick_nodes.mjs로 남기고 shrink_glb.mjs(텍스처 512)로 줄임. 첫 로딩 재료가 약 0.66MB 늘어남.
+- 수국 꽃송이와 장미는 파일 없이 src/topiary.js가 그려 씀. 걸이 화분과 덩굴 잎은 기존 leaf_atlas.
