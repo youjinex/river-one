@@ -27,7 +27,7 @@
 - 거실 소파(11/2): dune.glb = "Dune_sofa_ARobj" by qasimroy, CC BY 4.0, https://sketchfab.com/3d-models/be4fe0bcfc2e4138b63effbd3f756252 (텍스처 떼고 slim_model.mjs). 천 재질 curly_teddy_natural = Poly Haven CC0(tex512.mjs). 곡선 소파는 코드로 만듦(penthouse.js curvedSofa).
 - 식탁·창가 원탁·서재 의자(11/2): tulip.glb = "saarinen tulip chair" by Grapxly, CC BY 4.0(작가 표시 NoAI: 생성형 AI 데이터셋·입력 사용 금지), https://sketchfab.com/3d-models/bc48eb1d27794a7baa8b2009aff5590e (텍스처 떼고 slim_model.mjs 0.07).
 - 주방 가전(11/2): ovenstack.glb = "Oven, Microwave and Winecooler" by lutz_westerfeld, CC BY 4.0, https://sketchfab.com/3d-models/60ffe27b68dd4f9cb9f79b7b61350311 (와인쿨러와 앞면 제작자 글자 지움, 0.6). hob.glb = "Bosch Series 6 Induction Hob With Extractor" by 3dvisualisierung, CC BY 4.0, https://sketchfab.com/3d-models/87ba25dddee44f6da9dc35bac1bfd015 (0.7, 화면엔 브랜드 표시 없음).
-- 안방 라운지 체어(11/2): mid_century_lounge_chair = Poly Haven CC0(shrink_glb 512, 0.5). 시네마 영화는 파일을 넣지 않고 위키미디어에서 재생: 〈샤레이드〉(Stanley Donen, 1963, 퍼블릭 도메인), 〈신텔〉(Blender Foundation, CC BY 3.0), 〈스프링〉(Blender Studio, CC BY 4.0). 인터넷이 없거나 막히면 원래의 빛 화면으로 돌아감.
+- 안방 라운지 체어(11/2): mid_century_lounge_chair = Poly Haven CC0(shrink_glb 512, 0.5). 시네마 영화는 11/3 아래 '홈시네마 영화' 줄로 바뀜.
 - 3층 라이브러리와 온실(11/2, Poly Haven CC0): book_encyclopedia_set_01(낱장 면 빼고 표지만, 책등 아틀라스는 서가 인스턴스에도 씀), Chandelier_01, GreenChair_01, ClassicConsole_01, marble_bust_01, pachira_d(pachira_aquatica_01의 가장 큰 그루), fern_b(fern_02의 한 포기). sim/pick_nodes.mjs로 고른 뒤 slim_model.mjs. 원본은 sim/_ph/
 - 테라스(11/3, Poly Haven CC0): grass_tuft.glb = grass_medium_01, fern.glb = fern_02 (slim_model, slim_tree).
 - 도로 차와 강 위 배(11/3, Poly Pizza, slim_model로 줄임): CC0 = v_suv.glb "SUV" by Quaternius (poly.pizza/m/xsMtZhBkxL), b_sail.glb "Sail Boat" by Quaternius (poly.pizza/m/BgSZXwmm7k). CC BY 3.0 = v_sedan.glb "Car" by Quaternius (poly.pizza/m/HQ0hvRM2XR), v_pickup.glb "Mitsubishi L200" by Muhammad Reyhan (poly.pizza/m/4qjS9tFhsJg), b_ferry.glb "Boat" by Poly by Google (poly.pizza/m/c2SYxaiPfF3), b_cruise.glb "Cruise ship" by Poly by Google (poly.pizza/m/dgLCxDWhnZQ), b_liner.glb "Cruise liner" by Poly by Google (poly.pizza/m/cPiY_8RZMHE), b_motor.glb "Boat" by Poly by Google (poly.pizza/m/8vekojz4Abf)
@@ -73,6 +73,11 @@
 - 캐롤 판: "Starlifter and Roots in Blue" 2020 (United States Air Force Band of Mid-America) 11곡, 미국 정부 저작물이라 퍼블릭 도메인, Wikimedia Commons 파일명 `<곡명> (2020) - Starlifter and Roots in Blue - United States Air Force Band of Mid-America.mp3`
 - 합창 캐롤 판: Silent Night, Silent Night (1990), Carols of the Season (Singing Sergeants, United States Air Force Band), 퍼블릭 도메인, Wikimedia Commons. Jingle Bells (Calm), Deck the Halls A (Kevin MacLeod), CC BY 3.0
 - 보사노바와 2층 라운지 음악: Bossa Antigua, Casa Bossa Nova, BossaBossa, Backbay Lounge, Airport Lounge, Gymnopedie No. 1, 2, 3 (Kevin MacLeod, incompetech.com), CC BY 3.0, Wikimedia Commons
+- 힙합 판(11/3 오후, Free Music Archive 곡을 위키미디어 공용 사본으로 스트리밍, 아이폰 때문에 공용의 mp3 변환본 주소를 씀, 상업 이용 무관 CC BY):
+  - Broke For Free, "Simple Hop" (앨범 Slam Funk), CC BY 3.0, https://freemusicarchive.org/music/Broke_For_Free/Slam_Funk/ , 공용 파일 Broke_For_Free_-_11_-_Simple_Hop.ogg
+  - JBlanked, "Beat Cook Up 1 (ft. Bastardboy Production)", "Beat Cook Up 3", "Beat Cook Up 5" (앨범 Friendly Takeover), CC BY 4.0, 공용 파일 JBlanked_-_02_-_..., 03, 05 (공용 설명에 FMA 출처 링크)
+  - Purrple Cat, "Brain Fog", "Stale Cookies Still Taste Pretty Good" (앨범 Brain Fog, 2019), "Loading Screen" (앨범 Nostalgia and Moving On), CC BY 4.0, https://freemusicarchive.org/music/purrple-cat/
+  - ccMixter는 다른 사이트에서의 재생을 403으로 막고, archive.org의 힙합은 대부분 NC-ND라 뺌
 - 곡 자체도 모두 보호기간이 끝났음: Silent Night(1818), Jingle Bells(1857), O Holy Night(1847), Auld Lang Syne, Satie(1888). 재생 주소는 src/music.js에 전부 있음
 - 한강 산책로와 점프 공원(11/3, Poly Haven CC0): 재질 concrete_pavers(보행로 블록), granite_wall(호안), rubber_tiles(놀이터 고무 바닥, tex512.mjs). 모델 modular_street_seating(벤치), metal_trash_can, wooden_picnic_table, rock_07(징검돌, 회색으로 물들임), rock_09·boulder_01(내려받았으나 미사용, boulder는 2MB라 뺌), tree_stump_01/02(발판), planter_box_01(허들), old_tyre(slim_model.mjs). 원본은 sim/_ph/
 - 점프 공원과 편의점 소품(11/3, Poly Pizza, sim/_dl/polypizza2, slim_model.mjs). 전부 CC BY 3.0이라 출시물에 크레딧 필요:
@@ -182,3 +187,12 @@
 - miindo: 신윤복, 미인도, 1805. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Shin_Yun-bok_-_A_Beautiful_Woman_-_Google_Art_Project.jpg
 - ssireum: 김홍도, 씨름, 1780. Public domain. Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Danwon-Ssireum.jpg
 - 거실 턴테이블(11/3): turntable.glb = "Yamaha TT-300 Record Player" by AleixoAlonso, CC BY 4.0, https://sketchfab.com/3d-models/3577a2a1a0c24218bd5d768beccf218e (유진님 계정으로 1k GLB를 받아 slim_model.mjs 0.55, 텍스처 512. 부품을 나눠 플래터와 톤암을 움직임, 판과 라벨은 코드로 얹음. CC0 턴테이블은 Poly Haven, Poly Pizza, Sketchfab에 쓸 만한 것이 없었음)
+- 홈시네마 영화(11/3, 샤레이드 뺌): 파일을 넣지 않고 위키미디어 커먼스 변환본(480p VP9, 안 되면 360p MP4)을 바로 재생, 포스터는 커먼스 장면 썸네일(330px, seek). 인터넷이 없거나 막히면 원래의 빛 화면. 출시물에 크레딧 필요:
+  - 〈빅 벅 버니〉 Big Buck Bunny (2008), Blender Foundation, CC BY 3.0, commons.wikimedia.org/wiki/File:Big_Buck_Bunny_4K.webm
+  - 〈신텔〉 Sintel (2010), Blender Foundation, CC BY 3.0, commons.wikimedia.org/wiki/File:Sintel_movie_4K.webm
+  - 〈스프링〉 Spring (2019), Andy Goralczyk / Blender Studio, CC BY 4.0, commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm
+  - 〈티어스 오브 스틸〉 Tears of Steel (2012), Blender Foundation, CC BY 3.0, commons.wikimedia.org/wiki/File:Tears_of_Steel_1080p.webm
+  - 〈윙 잇!〉 WING IT! (2023), Blender Studio, CC BY 4.0, commons.wikimedia.org/wiki/File:WING_IT!_-_Blender_Open_Movie-full_movie.webm
+  - 〈커피 런〉 Coffee Run (2020), Blender Studio, CC BY 4.0, commons.wikimedia.org/wiki/File:Coffee_Run_-_Blender_Open_Movie-full_movie.webm
+  - 〈카미난데스 3: 라미고스〉 Caminandes 3: Llamigos (2016), Blender Foundation, CC BY 3.0, commons.wikimedia.org/wiki/File:Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm
+  - 후보였지만 뺀 것: Charge(총격), Sprite Fright(호러 코미디), Cosmos Laundromat(자살 시도로 시작), Elephants Dream(난해), Caminandes 2(CC BY-SA)
