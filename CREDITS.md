@@ -253,3 +253,17 @@
 ## 온실 꽃과 잎(11/4, Poly Haven CC0)
 - anthurium_botany_01.glb(343KB), calathea_orbifolia_01.glb(166KB), periwinkle_plant.glb(149KB): Poly Haven 모델(https://polyhaven.com/a/anthurium_botany_01, /calathea_orbifolia_01, /periwinkle_plant) CC0. 세트 파일에서 한 그루만 pick_nodes.mjs로 남기고 shrink_glb.mjs(텍스처 512)로 줄임. 첫 로딩 재료가 약 0.66MB 늘어남.
 - 수국 꽃송이와 장미는 파일 없이 src/topiary.js가 그려 씀. 걸이 화분과 덩굴 잎은 기존 leaf_atlas.
+
+## 강아지 짖는 소리(11/4)
+- 큰 개(골든, 블랙 래브라도, 도베르만): "Dog_Bark.wav"(설명 "Two dog barks"), ivolipa, CC0, https://freesound.org/people/ivolipa/sounds/328729/ . 미리듣기 https://cdn.freesound.org/previews/328/328729_3474310-hq.mp3 의 0.1~0.62초(두 번 짖음), 한 번만 짖을 땐 0.1~0.34초
+- 작은 개: "LBS_FX DOG Small Alert Bark001.wav", LittleBigSounds, CC0, https://freesound.org/people/LittleBigSounds/sounds/163459/ . 미리듣기 https://cdn.freesound.org/previews/163/163459_2965892-hq.mp3 의 0.26~0.98초(두 번), 한 번은 0.26~0.56초
+- 파일에 넣지 않고 Freesound 미리듣기를 받아 씀(src/sound.js BARKS). 음높이는 그대로, 큰 개는 작은 개보다 약 4.5dB 크게. 못 받으면 합성 소리
+- 11/4 오전 판의 "Single Dog Bark"(kwahmah_02) 한 번을 두 번 잇고 음높이를 바꾸던 방식은 인위적이라는 말에 뺌
+- 위키미디어 공용의 개 짖는 소리는 대부분 CC BY-SA라 뺌
+
+## 잎 하나하나와 옥상 등나무 가구(11/4, ambientCG CC0)
+- leaves_real.webp(145KB), leaves_real_nor.webp(55KB): ambientCG 잎 사진 넷을 1024 한 장에 모음. 왼쪽 위 LeafSet024(둥근 잎, 회양목 대신, https://ambientcg.com/view?id=LeafSet024), 오른쪽 위 LeafSet022(월계수, /view?id=LeafSet022), 왼쪽 아래 LeafSet013(가는 잎, 올리브 대신, /view?id=LeafSet013), 오른쪽 아래 LeafSet017(담쟁이, /view?id=LeafSet017). 모두 CC0. 상한 잎은 빼고 골라 칸마다 세워 담음, 빈 곳은 가까운 잎 색으로 채움. 노멀은 같은 묶음의 NormalGL. src/topiary.js의 RECTS가 잎 자리
+- ambientCG에 회양목 단독 잎 세트는 없어서 둥근 잎(024)을 작게(약 4cm) 써서 대신함
+- wicker_008_diff/nor/arm.webp(약 89KB): ambientCG Wicker008A(https://ambientcg.com/view?id=Wicker008A) CC0, 1K를 512로. arm은 AO, 거칠기, 금속 0. src/rattan.js의 옥상 소파, 파파산 의자, 바 의자, 바구니 의자, 원형 식탁 기둥, 선베드, 데이베드 받침이 씀
+- Poly Haven 가구는 실내용이나 앤티크가 대부분이고 바깥 접이 의자 세트(outdoor_table_chair_set_01)는 이미 테라스에 써서, 옥상 가구는 이 재질로 직접 만듦. Sketchfab 파일은 쓰지 않음
+- 첫 로딩 재료가 약 0.29MB 늘어남
