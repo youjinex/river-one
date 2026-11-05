@@ -267,3 +267,11 @@
 - wicker_008_diff/nor/arm.webp(약 89KB): ambientCG Wicker008A(https://ambientcg.com/view?id=Wicker008A) CC0, 1K를 512로. arm은 AO, 거칠기, 금속 0. src/rattan.js의 옥상 소파, 파파산 의자, 바 의자, 바구니 의자, 원형 식탁 기둥, 선베드, 데이베드 받침이 씀
 - Poly Haven 가구는 실내용이나 앤티크가 대부분이고 바깥 접이 의자 세트(outdoor_table_chair_set_01)는 이미 테라스에 써서, 옥상 가구는 이 재질로 직접 만듦. Sketchfab 파일은 쓰지 않음
 - 첫 로딩 재료가 약 0.29MB 늘어남
+
+## 엔진, 타이어, 불꽃 녹음(11/5)
+- 원본은 sim/_dl(snd_aventador, gt3rs, tire, fireworks)에 두고, tools/cut_sounds.py가 짧은 고리와 한 방짜리로 잘라 assets/snd/*.wav와 src/sndpack.js(base64, 약 1.3MB)로 만듦. 원본 풀기는 헤드리스 크롬 decodeAudioData(24kHz 모노)
+- Lamborghini Aventador - engine and exhaust sound (YouTube oMKxhIcSmZs).opus, Super Cars for you(YouTube), CC BY 3.0, 위키미디어 공용 https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_-_engine_and_exhaust_sound_(YouTube_oMKxhIcSmZs).opus → V12 엔진 고리 넷(2760, 3660, 4640, 8760rpm). 출시물 크레딧 필요
+- Porsche 911 GT3 RS - engine and exhaust sound (YouTube 1t2wz1iLHJ4).opus, Supercars67(YouTube), CC BY 3.0, 위키미디어 공용 https://commons.wikimedia.org/wiki/File:Porsche_911_GT3_RS_-_engine_and_exhaust_sound_(YouTube_1t2wz1iLHJ4).opus → 수평대향 6기통 고리 넷(1190, 3610, 6400, 8400rpm). 출시물 크레딧 필요
+- Tire squeal(0500), BigSoundBank, CC0, https://bigsoundbank.com/tire-squeal-s0500.html → 끽 소리 셋의 가운데를 이은 드리프트 고리
+- Fireworks #1(0831), Joseph Sardin, BigSoundBank, CC0, https://bigsoundbank.com/fireworks-s0831.html → 쿵 다섯(16kHz), 타닥타닥 둘, 휘익 둘
+- 전기차 셋(로드스터, 타이칸, 사이버트럭)의 모터 윙은 녹음 없이 합성
