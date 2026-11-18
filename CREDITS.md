@@ -276,3 +276,9 @@
 - Tire squeal(0500), BigSoundBank, CC0, https://bigsoundbank.com/tire-squeal-s0500.html → 끽 소리 셋의 가운데를 이은 드리프트 고리
 - Fireworks #1(0831), Joseph Sardin, BigSoundBank, CC0, https://bigsoundbank.com/fireworks-s0831.html → 쿵 다섯(16kHz), 타닥타닥 둘, 휘익 둘
 - 전기차 셋(로드스터, 타이칸, 사이버트럭)의 모터 윙은 녹음 없이 합성
+
+## 지하철 소리(11/18, 공유마당)
+- 전철문 여닫는.wav, 김용배, CC BY 4.0, https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13254506&menuNo=200020 → 문 열림(0.22~2.15초), 문 닫힘(5.05~8.3초)
+- 지하철 정지B.wav, 김용배, CC BY 4.0, https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13254580&menuNo=200020 → 달리는 고리(18~22초), 서는 소리(40~46.8초, 42.3초 '치익')
+- 교통_을지로3가역_코로나안내방송_dMS_ST_192.mp3, (재)전주정보문화산업진흥원, 공공누리 제1유형(출처표시), https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13287548&menuNo=200020 → 앞 차임(1.0~5.95초)만, 말은 안 씀
+- 원본은 sim/_dl/gongu_metro, tools/cut_metro.py가 잘라 assets/snd/m_*.wav와 src/sndpack.js(metro 묶음)로. 출시물 크레딧 필요(src/credits.js 소리)
