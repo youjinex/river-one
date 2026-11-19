@@ -273,6 +273,7 @@
 - 원본은 sim/_dl(snd_aventador, gt3rs, tire, fireworks)에 두고, tools/cut_sounds.py가 짧은 고리와 한 방짜리로 잘라 assets/snd/*.wav와 src/sndpack.js(base64, 약 1.3MB)로 만듦. 원본 풀기는 헤드리스 크롬 decodeAudioData(24kHz 모노)
 - Lamborghini Aventador - engine and exhaust sound (YouTube oMKxhIcSmZs).opus, Super Cars for you(YouTube), CC BY 3.0, 위키미디어 공용 https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_-_engine_and_exhaust_sound_(YouTube_oMKxhIcSmZs).opus → V12 엔진 고리 넷(2760, 3660, 4640, 8760rpm). 출시물 크레딧 필요
 - Porsche 911 GT3 RS - engine and exhaust sound (YouTube 1t2wz1iLHJ4).opus, Supercars67(YouTube), CC BY 3.0, 위키미디어 공용 https://commons.wikimedia.org/wiki/File:Porsche_911_GT3_RS_-_engine_and_exhaust_sound_(YouTube_1t2wz1iLHJ4).opus → 수평대향 6기통 고리 넷(1190, 3610, 6400, 8400rpm). 출시물 크레딧 필요
+- 출발 소리(11/19): 위 Lamborghini Aventador 녹음 55.4~61.2초(1단 출발, 변속, 2단)를 tools/cut_launch.py로 잘라 assets/snd/launch_v12.wav와 src/sndpack.js launch 묶음으로. 수평대향(911)도 같은 녹음을 1.12배로 틂(포르쉐 녹음엔 서 있다 치고 나가는 구간이 없음). 원본은 sim/_dl/eng_aventador, eng_gt3rs(위키미디어 공용, CC BY 3.0, 11/19 다시 받음)
 - Tire squeal(0500), BigSoundBank, CC0, https://bigsoundbank.com/tire-squeal-s0500.html → 끽 소리 셋의 가운데를 이은 드리프트 고리
 - Fireworks #1(0831), Joseph Sardin, BigSoundBank, CC0, https://bigsoundbank.com/fireworks-s0831.html → 쿵 다섯(16kHz), 타닥타닥 둘, 휘익 둘
 - 전기차 셋(로드스터, 타이칸, 사이버트럭)의 모터 윙은 녹음 없이 합성
