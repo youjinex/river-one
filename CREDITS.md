@@ -283,3 +283,4 @@
 - 지하철 정지B.wav, 김용배, CC BY 4.0, https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13254580&menuNo=200020 → 달리는 고리(18~22초), 서는 소리(40~46.8초, 42.3초 '치익')
 - 교통_을지로3가역_코로나안내방송_dMS_ST_192.mp3, (재)전주정보문화산업진흥원, 공공누리 제1유형(출처표시), https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13287548&menuNo=200020 → 앞 차임(1.0~5.95초)만, 말은 안 씀
 - 원본은 sim/_dl/gongu_metro, tools/cut_metro.py가 잘라 assets/snd/m_*.wav와 src/sndpack.js(metro 묶음)로. 출시물 크레딧 필요(src/credits.js 소리)
+- 사무실(11/19, Poly Haven CC0, 1k → 512 WebP, 모델은 slim_model.mjs): 재질 red_brick_03, smooth_concrete_floor(회색으로 채도 낮추고 밝게), terrazzo_tiles, oak_veneer_01, herringbone_parquet, oak_wood_planks. 모델 classic_laptop, office_notepads, binder_notebook, bar_chair_round_01, metal_stool_02, hanging_industrial_lamp, steel_frame_shelves_01, sofa_02, modern_arm_chair_01, industrial_coffee_table, potted_plant_01. 원본은 sim/_ph/
